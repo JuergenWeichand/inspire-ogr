@@ -5,6 +5,7 @@ before_install:
     
 install:
     - sudo apt-get install libgdal-dev 
+    - sudo apt-get install python-gdal
     
 script:
     - python ogr-check-version.py
