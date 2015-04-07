@@ -9,4 +9,4 @@ install:
     
 script:
     - python python/ogr-check-version.py
-    - python python/ogr-gfs-tester.py data/annex1/ad-address-deegree-demo.gml gfs/annex1/ad-address.gfs
+    - python python/ogr-gfs-tester.py data/annex1/ad-address-deegree-demo.gml gfs/annex1/ad-Address.gfs
