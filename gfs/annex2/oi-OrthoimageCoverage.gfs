@@ -1,9 +1,60 @@
 <GMLFeatureClassList>
   <SequentialLayers>true</SequentialLayers>
   <GMLFeatureClass>
+    <Name>AggregatedMosaicElement</Name>
+    <ElementPath>AggregatedMosaicElement</ElementPath>
+    <GeometryType>6</GeometryType>
+    
+    
+    <PropertyDefn>
+      <Name>inspireId|Identifier|localId</Name>
+      <ElementPath>inspireId|Identifier|localId</ElementPath>
+      <Type>String</Type>
+      <Width>36</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>inspireId|Identifier|namespace</Name>
+      <ElementPath>inspireId|Identifier|namespace</ElementPath>
+      <Type>String</Type>
+      <Width>11</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>phenomenonTime|TimePeriod@id</Name>
+      <ElementPath>phenomenonTime|TimePeriod@id</ElementPath>
+      <Type>String</Type>
+      <Width>40</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>phenomenonTime|TimePeriod|begin|TimeInstant@id</Name>
+      <ElementPath>phenomenonTime|TimePeriod|begin|TimeInstant@id</ElementPath>
+      <Type>String</Type>
+      <Width>41</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>phenomenonTime|TimePeriod|begin|TimeInstant|timePosition</Name>
+      <ElementPath>phenomenonTime|TimePeriod|begin|TimeInstant|timePosition</ElementPath>
+      <Type>String</Type>
+      <Width>10</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>phenomenonTime|TimePeriod|end|TimeInstant@id</Name>
+      <ElementPath>phenomenonTime|TimePeriod|end|TimeInstant@id</ElementPath>
+      <Type>String</Type>
+      <Width>41</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>phenomenonTime|TimePeriod|end|TimeInstant|timePosition</Name>
+      <ElementPath>phenomenonTime|TimePeriod|end|TimeInstant|timePosition</ElementPath>
+      <Type>String</Type>
+      <Width>10</Width>
+    </PropertyDefn>
+  </GMLFeatureClass>
+  <GMLFeatureClass>
     <Name>OrthoimageCoverage</Name>
     <ElementPath>OrthoimageCoverage</ElementPath>
     <GeometryType>6</GeometryType>
+    
+    
     <PropertyDefn>
       <Name>domainSet|RectifiedGrid@dimension</Name>
       <ElementPath>domainSet|RectifiedGrid@dimension</ElementPath>
