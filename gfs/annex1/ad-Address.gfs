@@ -4,8 +4,6 @@
     <Name>Address</Name>
     <ElementPath>Address</ElementPath>
     <GeometryType>1</GeometryType>
-    
-    
     <PropertyDefn>
       <Name>inspireId|Identifier@base</Name>
       <ElementPath>inspireId|Identifier@base</ElementPath>
@@ -357,7 +355,4 @@
       <Width>4</Width>
     </PropertyDefn>
   </GMLFeatureClass>
-  
-  
-  
 </GMLFeatureClassList>
